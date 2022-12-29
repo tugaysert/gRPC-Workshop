@@ -1,7 +1,6 @@
 package com.example.client;
 
-import com.example.models.Balance;
-import com.example.models.BalanceCheckRequest;
+
 import com.example.models.BankServiceGrpc;
 import com.example.models.WithdrawRequest;
 import com.google.common.util.concurrent.Uninterruptibles;
