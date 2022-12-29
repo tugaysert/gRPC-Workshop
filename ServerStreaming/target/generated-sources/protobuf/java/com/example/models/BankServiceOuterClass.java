@@ -15,16 +15,6 @@ public final class BankServiceOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_BalanceCheckRequest_descriptor;
-  static final 
-    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_BalanceCheckRequest_fieldAccessorTable;
-  static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_Balance_descriptor;
-  static final 
-    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_Balance_fieldAccessorTable;
-  static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WithdrawRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
@@ -43,39 +33,25 @@ public final class BankServiceOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\022bank-service.proto\",\n\023BalanceCheckRequ" +
-      "est\022\025\n\raccountNumber\030\001 \001(\005\"\031\n\007Balance\022\016\n" +
-      "\006amount\030\001 \001(\005\"8\n\017WithdrawRequest\022\025\n\racco" +
-      "untNumber\030\001 \001(\005\022\016\n\006amount\030\002 \001(\005\".\n\005Money" +
-      "\022\r\n\005value\030\001 \001(\005\022\026\n\016remainingValue\030\002 \001(\0052" +
-      "5\n\013BankService\022&\n\010withdraw\022\020.WithdrawReq" +
-      "uest\032\006.Money0\001B\026\n\022com.example.modelsP\001b\006" +
-      "proto3"
+      "\n\022bank-service.proto\"8\n\017WithdrawRequest\022" +
+      "\025\n\raccountNumber\030\001 \001(\005\022\016\n\006amount\030\002 \001(\005\"." +
+      "\n\005Money\022\r\n\005value\030\001 \001(\005\022\026\n\016remainingValue" +
+      "\030\002 \001(\00525\n\013BankService\022&\n\010withdraw\022\020.With" +
+      "drawRequest\032\006.Money0\001B\026\n\022com.example.mod" +
+      "elsP\001b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
         });
-    internal_static_BalanceCheckRequest_descriptor =
-      getDescriptor().getMessageTypes().get(0);
-    internal_static_BalanceCheckRequest_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_BalanceCheckRequest_descriptor,
-        new java.lang.String[] { "AccountNumber", });
-    internal_static_Balance_descriptor =
-      getDescriptor().getMessageTypes().get(1);
-    internal_static_Balance_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_Balance_descriptor,
-        new java.lang.String[] { "Amount", });
     internal_static_WithdrawRequest_descriptor =
-      getDescriptor().getMessageTypes().get(2);
+      getDescriptor().getMessageTypes().get(0);
     internal_static_WithdrawRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_WithdrawRequest_descriptor,
         new java.lang.String[] { "AccountNumber", "Amount", });
     internal_static_Money_descriptor =
-      getDescriptor().getMessageTypes().get(3);
+      getDescriptor().getMessageTypes().get(1);
     internal_static_Money_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_Money_descriptor,
